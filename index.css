@@ -1,0 +1,263 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color:white;
+}
+.introduce{
+    height: 450px;
+    padding-top:100px;
+    background-image: url(images/sclass.png);
+}
+.introduce > p {
+    margin: 0 0 0 15%;
+    padding: 15px 0 0 0 ;
+}
+
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+li{
+    list-style-type: none;
+}
+.header1{
+    margin: 0 10%;
+}
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav > ul > li > a, .navb ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    display: block;
+}
+nav > ul > li > a:hover{
+    transition: all 0.3s;
+    color: rgb(78, 78, 78);
+    
+}
+.headline{
+    background-color: black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.slogan {
+    margin-top: 14px;
+    margin-left: 45px;
+}
+.slogan > h3 , h4{
+    display: block;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.navb{
+    height: 50px;
+}
+.navb ul{
+    display: flex;
+    background-color: #121111;
+}
+.navb ul li{
+    padding: 0 10px;
+    list-style: none;
+}.navb ul li a:hover{
+    color: #0577A4;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#home{
+    color: #0577A4;
+}
+/* nav-right */
+#list-1{
+    position: fixed;
+    right: 0;
+    top: 40%;
+}
+#list-1:hover .txt1{
+    display: inline-block;
+    width: 90px;
+    transition: all 0.5s;
+}
+#list-2{
+    position: fixed;
+    right: 0;
+    top: 47%;
+}
+#list-2:hover .txt2{
+    display: inline-block;
+    width: 90px;
+    transition: all 0.5s;
+}
+#list-3{
+    position: fixed;
+    right: 0;
+    top: 54%;
+    
+}
+#list-3:hover .txt3{
+    display: inline-block;
+    width: 90px;
+    transition: all 0.5s;
+}
+#list-4{
+    position: fixed;
+    right: 0;
+    top: 61%;
+    
+}
+#list-4:hover .txt4{
+    display: inline-block;
+    width: 90px;
+    transition: all 0.5s;
+}
+
+.list-nav-right{
+    background-color: #00ADEF;
+}
+
+.list-nav-right a i{
+    color: rgb(243, 242, 241);
+    font-size: 35px;
+    background-color: #00ADEF;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    
+}
+/* link-text */
+.txt1,.txt2,.txt3,.txt4{
+    display: none;
+    color: rgb(243, 242, 241);
+    font-size: 15px;
+    
+}
+/* nav-left */
+.nav-left{
+    position: fixed;
+    left: 0;
+    margin-left: -40px;
+    width: 250px;
+}
+#home1{
+    color: #0577A4;
+}
+#home1 i{
+    font-size: 25px !important;
+}
+.nav-left ul li h1{
+    color: rgb(243, 242, 241);
+    position: absolute;
+    top: 5px;
+    right: 20%;
+    display: none;
+}
+.nav-left ul:hover{
+    transition: all 0.5s !important;
+    background-color: #161616; 
+}
+.nav-left ul li {
+    padding: 20px 10px;
+}
+.nav-left ul li a{
+    color: rgb(243, 242, 241);
+}
+.nav-left ul li a:hover{
+    color: #0577A4;
+    transition: all 0.5s;
+}
+.text-link{
+    display: none;
+    margin-left: 10px;
+}
+.nav-left ul:hover .text-link{
+    display: inline-block;
+}
+.nav-left ul:hover #title{
+    display: block;
+}
+
+/* CSS introduce */
+.infor{
+    box-sizing: border-box;
+}
+.detail{
+    color: white;
+    margin:3% 10%;
+}
+.detail > h2{
+    font-weight: 450;
+}
+.detail > h4 {
+    font-weight: 300;
+    text-align: left;
+    padding-top: 10px;
+    margin: 5px 0;
+}
+.detail > p {
+    text-align: justify;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    font-size: 15px;
+}
+.divngoai{
+    display: flex;
+}
+.imgde {
+    width: 73%;
+    margin:0 ;
+}
+.img1{
+    margin: 0;
+}
+
+.img23 {
+    width: 46%;
+    margin: 0;
+}
+
+.img2infor {    
+    margin: 0 10% 5% 5%;
+}
+.img3infor {    
+    width: 70%;
+    margin: 10% 5%;
+}
+.designdetail{
+    font-size: 22px;
+    font-weight: 250;
+}
+.comfortlist{
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 0 17px;
+    display: flexbox;
+}
+.comfortlist > ul {
+    margin-left:5%;
+}
+.comfortlist > ul > li {
+    list-style-type: disc;
+
+}
+.comfortlist > h3 {
+    font-weight: 400;
+    font-size: 23px;
+}
+.safelist > ul > li {
+    list-style-type: disc;
+}
+.safelist > h3 {
+    font-weight: 400;
+    font-size: 23px;
+}
